@@ -28,7 +28,7 @@ latest changes.
 
 Jenkin can be install with application server like tomcat,jboss etc OR standalone 
 
-****Jenkin standalone****
+**Jenkin standalone**
 
 		$ java -jar jenkins.war
 
@@ -37,7 +37,7 @@ port manually, using the --httpPort option
 
 		$ java -jar jenkins.war --httpPort=8081
 		
-**** Jenkins with apache***
+** Jenkins with apache**
 
 		$ java -jar jenkins.war --httpPort=8081 --ajp13Port=8010 --prefix=jenkins
 
